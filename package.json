@@ -1,24 +1,28 @@
 {
   "name": "blurts-pageres",
-  "version": "1.0.0",
   "description": "Firefox Monitor screenshots using pageres.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "1.0.0",
+  "author": "Peter deHaan",
+  "bin": "index.js",
+  "bugs": {
+    "url": "https://github.com/pdehaan/blurts-pageres/issues"
   },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "pageres": "^5.2.0"
+  },
+  "homepage": "https://github.com/pdehaan/blurts-pageres#readme",
+  "keywords": [
+    "firefox monitor",
+    "hibp"
+  ],
+  "license": "MPL-2.0",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pdehaan/blurts-pageres.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pdehaan/blurts-pageres/issues"
-  },
-  "homepage": "https://github.com/pdehaan/blurts-pageres#readme",
-  "dependencies": {
-    "axios": "^0.19.0",
-    "pageres": "^5.2.0"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

@@ -1,9 +1,15 @@
+#!/usr/bin/env node
+
+"use strict";
+
 const axios = require("axios");
 const Pageres = require("pageres");
 
 process.setMaxListeners(0);
 
-main()
+const argv = process.argv.slice(2);
+
+main(...argv)
   .catch(err => {
     console.error(err);
     process.exit(1);
