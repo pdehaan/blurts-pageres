@@ -8,7 +8,7 @@
     "url": "https://github.com/pdehaan/blurts-pageres/issues"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "pageres": "^5.2.0"
   },
   "homepage": "https://github.com/pdehaan/blurts-pageres#readme",
